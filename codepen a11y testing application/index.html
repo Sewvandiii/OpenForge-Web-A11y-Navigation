@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .number {
+      background-color: #3349c0;
+      color: #ffffff;
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      font-size: 18px;
+      margin-right: 4px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 aria-label="Sign up form">Sign Up Form</h1>
+    <form action="#" aria-labelledby="form-label">
+      <legend>
+        <span class="number">1</span> Your Basic Info
+      </legend>
+      <label id="form-label" for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" aria-label="Enter your full name" aria-required="true" tabindex="1" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Enter your email address" aria-required="true" tabindex="2" required />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Your Age" aria-label="Enter your age" tabindex="3" />
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" aria-label="Select your gender" tabindex="4" onchange="handleGenderChange(this)" onkeydown="handleGenderKeyDown(event, this)">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <legend>
+        <span class="number">2</span> Your Profile
+      </legend>
+      <label for="website">Website:</label>
+      <input type="url" id="website" name="website" placeholder="Your Website" aria-label="Enter your website URL" tabindex="5" />
+      <label for="introduction">Bio:</label>
+      <textarea id="introduction" name="introduction" placeholder="Write a short introduction" aria-label="Write a short introduction about yourself" tabindex="6"></textarea>
+      <button type="submit" tabindex="7" aria-label="Sign up form">
+        Sign Up
+      </button>
+    </form>
+  </div>
+  <script src="script.ts"></script>
+</body>
+
+</html>
