@@ -1,0 +1,101 @@
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #3349c0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #000000;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+input[type="radio"]:checked {
+  border-color: #3349c0;
+  background-color: #3349c0;
+}
+
+input[type="radio"]:focus {
+  box-shadow: 0 0 0 2px rgba(51, 73, 192, 0.4);
+}
+
+select option {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+}
+
+select option:checked {
+  background-color: #3349c0;
+  color: #fff;
+}
