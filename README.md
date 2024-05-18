@@ -1,7 +1,13 @@
 # OpenForge Web Accessibility Navigation
 
-Link to the Figma file - https://www.figma.com/file/hGMRfdB9zLPSSwdnUK0oR7/Prototype?type=design&node-id=0%3A1&mode=design&t=qPic9zh4GaYQX0l3-1
+OpenForge is a prototype no-code platform that allows you to test out keyboard navigation features following accessibility guidelines and standards. With OpenForge, you can experience how a no-code tool with proper keyboard accessibility would work for users who have visual disabilities.
 
-![Get Started](https://github.com/Sewvandiii/OpenForge-Web-A11y-Navigation/assets/61576355/698c5b1c-27a7-4f2f-a824-96ab0fe4c49b)
+![Get Started](https://github.com/Sewvandiii/OpenForge-Web-A11y-Navigation/assets/61576355/7de44924-f7ac-42ca-97b7-47c3d837dcca)
+
+![Component Page - Form - focus7](https://github.com/Sewvandiii/OpenForge-Web-A11y-Navigation/assets/61576355/988f5891-bf7e-46c0-9029-2dd1470f7e6f)
+
+![Component Page - Table](https://github.com/Sewvandiii/OpenForge-Web-A11y-Navigation/assets/61576355/cd08e14b-d807-47cb-8b71-2c4bc3703634)
+
+
 
 
