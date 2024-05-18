@@ -1,6 +1,6 @@
 # OpenForge Web Accessibility Navigation
 
-OpenForge is a prototype no-code platform that allows you to test out keyboard navigation features following accessibility guidelines and standards. With OpenForge, you can experience how a no-code tool with proper keyboard accessibility would work for users who have visual disabilities.
+OpenForge is a Figma prototype no-code platform that allows you to test out keyboard navigation features following accessibility guidelines and standards. With OpenForge, you can experience how a no-code tool with proper keyboard accessibility would work for users who have visual disabilities.
 
 ### Instructions
 
