@@ -2,9 +2,9 @@
 
 OpenForge is a Figma prototype no-code platform that allows you to test out keyboard navigation features following accessibility guidelines and standards. With OpenForge, you can experience how a no-code tool with proper keyboard accessibility would work for users who have visual disabilities.
 
-### Instructions
+## Instructions
 
-#### Proposed Prototype Solution.zip
+### Proposed Prototype Solution.zip
 This is the zip file for the proposed prototype solution.
 
 Steps
@@ -13,7 +13,7 @@ Steps
 3. Select the MSc Project Prototype.fig
 
 
-#### a11y-aria-attributes-testing-application.zip
+### a11y-aria-attributes-testing-application.zip
 This is the implemented sample application to test ARIA attributes using Chrome screen reader.
 
 Languages: HTML, CSS, JS (Typescript)
